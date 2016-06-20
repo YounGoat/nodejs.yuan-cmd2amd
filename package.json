@@ -1,0 +1,16 @@
+{
+    "name": "yuan-cmd2amd",
+    "version": "0.0.1",
+    "description": "",
+    "dependencies": {
+        "uglify-js": "^2.6.2",
+        "minimist": "^1.2.0",
+        "yuan-console": "*"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "node example"
+    },
+    "author": "",
+    "license": "SEE LICENSE IN LICENSE.txt"
+}

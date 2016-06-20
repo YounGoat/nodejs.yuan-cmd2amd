@@ -1,0 +1,9 @@
+
+/em:NAME/
+	cmd2amd - Transform CMD to AMD.
+
+/em:SYNOPSIS/
+	/em:cmd2amd/ /em:-h/ | /em:--help/
+	/em:cmd2amd/ /em:--input/ <js_path> /em:--name/ <module_name>
+	/em:cmd2amd/ /em:--input/ <js_path> /em:--output/ <output_path>
+	/em:cmd2amd/ /em:--input/ <js_path> /em:--run-on-required/ /em:--modult-built-in/
