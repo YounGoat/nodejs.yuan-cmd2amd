@@ -49,7 +49,7 @@ var code = fs.readFileSync(argv.input, 'utf8');
 console.log(code);
 
 var OPTIONS = {};
-OPTIONS.runOnRequired = !!argv['run-on-required'];
+OPTIONS.execOnRequired = !!argv['exec-on-required'];
 OPTIONS.moduleBuiltIn = !!argv['module-built-in'];
 
 code = cmd2amd(code, argv.name, OPTIONS);

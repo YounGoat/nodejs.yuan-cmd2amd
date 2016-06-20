@@ -23,7 +23,7 @@ var cmd2amd = require('yuan-cmd2amd');
 
 var cmdCode = fs.readFileSync('/path/to/jsfile', 'utf8');
 var options = {
-	runOnRequired : false,
+	execOnRequired : false,
 	moduleBuiltIn : false
 };
 var amdCode = cmd2amd(cmdCode, options);

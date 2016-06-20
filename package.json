@@ -5,6 +5,7 @@
     "dependencies": {
         "uglify-js": "^2.6.2",
         "minimist": "^1.2.0",
+        "yuan": "*",
         "yuan-console": "*"
     },
     "main": "index.js",

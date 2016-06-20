@@ -11,8 +11,8 @@ console.log('-- OUTPUT (default) --');
 console.log(cmd2amd(code, 'FOO'));
 
 console.log();
-console.log('-- OUTPUT (runOnRequired:true)--');
-console.log(cmd2amd(code, 'FOO', { runOnRequired: true }));
+console.log('-- OUTPUT (execOnRequired:true)--');
+console.log(cmd2amd(code, 'FOO', { execOnRequired: true }));
 
 console.log();
 console.log('-- OUTPUT (moduleBuiltIn:true)--');

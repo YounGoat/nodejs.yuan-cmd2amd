@@ -81,7 +81,7 @@ var transformer = new UglifyJS.TreeTransformer(function(node, descend) {
 		var requireName = node.args[0].value;
 		MODULES.push(requireName);
 
-		if (OPTIONS.runOnRequired) {
+		if (OPTIONS.execOnRequired) {
 			return new UglifyJS.AST_Call({
 				expression: new UglifyJS.AST_SymbolRef({ name: OPTIONS.symbolRequire }),
 				args: [ new UglifyJS.AST_String({ value: requireName }) ]
