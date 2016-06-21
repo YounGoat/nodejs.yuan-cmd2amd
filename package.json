@@ -1,7 +1,7 @@
 {
     "name": "yuan-cmd2amd",
-    "version": "0.0.1",
-    "description": "",
+    "version": "0.0.3",
+    "description": "Transform JavaScript from CommonJS to AMD.",
     "dependencies": {
         "uglify-js": "^2.6.2",
         "minimist": "^1.2.0",
@@ -12,6 +12,10 @@
     "scripts": {
         "test": "node example"
     },
-    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YounGoat/nodejs.yuan-cmd2amd"
+    },
+    "author": "Triver YounGoat <youngoat@163.com> (http://youngoat.github.io/)",
     "license": "SEE LICENSE IN LICENSE.txt"
 }
